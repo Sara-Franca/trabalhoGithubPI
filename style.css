@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #333;
+	background-color: #f4ffff;
+}
+/*#cabecalho, #menu e todos os outros são seletores de id, para criarem uma espécie 
+de header, menu e corpo acessório do site com especificações 
+de tamanho, cor, imagem e outros. */
+#principal {
+	margin: 1em auto;
+	width: 700px;
+	text-align: left;
+	background: #FFF;
+	border: 1px solid #676767;
+}
+
+#cabecalho {
+	background: #00AEB3;
+	width: 700px;
+	height: 70px;
+	color: #E9F2E4;
+	text-align: center;
+	padding-bottom: 15px;
+	font: 85% arial, hevetica, sans-serif;
+}
+
+#menu {
+	background: #d8d8d8;
+	color: #272900;
+	padding: 2px 0;
+	margin-bottom: 22px;
+	border-bottom: 1px solid #9baeb7;
+	border-top: 1px solid #9baeb7;
+	font: arial, hevetica, sans-serif;
+}
+
+#menu ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+	list-style-type: none;
+	border-left: 1px solid #9baeb7;
+}
+
+#menu li {
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #9baeb7;
+}
+
+#menu ul li a {
+	color: #247578;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: #00BEC4;
+}
+
+#corpo {
+	width: 700px;
+	height: 370px;
+	text-align: center;
+}
+
+#corpo a {
+	color: #247578;
+	text-decoration: none;
+}
+
+#corpo a:hover {
+	color: #00BEC4;
+}
+
+#corpoSeres {
+	margin: auto;
+	width: 500px;
+	height: 550px;
+	background: white;
+	text-align: center;
+}
+#corpoSeres tr td img {
+	width: 117px;
+	height: 78px;
+}
+
+#corpoSeres tr td {
+	text-align: justify;
+	padding: 0 0 0 20px;
+}
+
+#corpoDeuses {
+	margin: auto;
+	width: 550px;
+	height: 2000px;
+	background: white;
+	text-align: center;
+}
+
+#corpoDeuses tr td {
+	text-align: justify;
+	padding: 0 0 0 20px;
+}
+
+#corpoDeuses tr td img {
+	width: 120px;
+	height: 80px;
+}
+
+#corpoMitos {
+	font: 90% arial, hevetica, sans-serif; margin : auto;
+	width: 600px;
+	height: 500px;
+	background: white;
+	text-align: center;
+	margin: auto;
+}
